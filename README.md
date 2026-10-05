@@ -1,4 +1,4 @@
-<h1 align="center">CCNA Study Notes & Packet Tracer Labs</h1>
+<h1 align="center">Cisco Packet Tracer Practice Labs</h1>
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
