@@ -12,7 +12,7 @@ Get familiar with the Packet Tracer interface: device placement, cabling, and sw
 - **Device placement:** Devices are dragged in from the bottom-left device category bar (routers, switches, end devices, connections, etc.)
 - **Cabling:** Connections are made using the cable icon in the device bar. Packet Tracer will auto-suggest the right cable type (straight-through vs. crossover) in most cases, but it's worth knowing that every connection starts with the cable icon.
 
-## What tripped me up
+## Where I struggled
 Nothing significant; this was orientation, not configuration.
 
 ## Things to note
