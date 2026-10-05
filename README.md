@@ -8,33 +8,19 @@
 
 ## Study Log
 
-<details>
-<summary>📁 Networking Fundamentals</summary>
-
-- [Packet Tracer Intro](networking-fundamentals/osi-model/notes.md)
-- [IP Addressing & Subnetting](networking-fundamentals/subnetting/notes.md)
-
-</details>
-
-<details>
-<summary>📁 Switching</summary>
-
-- [VLAN Configuration](switching/vlans/notes.md)
-- [Trunking & Inter-VLAN Routing](switching/trunking/notes.md)
-
-</details>
-
-<details>
-<summary>📁 Routing</summary>
-
-(empty for now — will fill in as I progress)
-
-</details>
+- [Packet Tracer Intro](01-packet-tracer-intro/notes.md)
+- [Common Interfaces & Ports](02-common-interfaces-ports/notes.md)
 
 ---
 
 ## About this repo
 
-Each lab folder contains:
-- A notes file covering the objective, topology, key configuration, and what I learned
-- Packet Tracer topology screenshots and verification output
+The numbered folders are the labs in the order I covered them. Each notes file covers the objective, key configuration (where applicable), and what I learned.
+
+This is a learning log, not a finished reference — expect early entries to be thin and later ones more detailed as the material gets more hands-on.
+
+---
+
+## Credit
+
+Labs and structure follow [Jeremy's IT Lab](https://www.youtube.com/@JeremysITLab) CCNA playlist on YouTube. Notes and explanations.
