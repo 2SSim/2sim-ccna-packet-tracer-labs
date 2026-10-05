@@ -11,7 +11,7 @@
 <details>
 <summary>📁 Networking Fundamentals</summary>
 
-- [OSI Model Basics](networking-fundamentals/osi-model/notes.md)
+- [Packet Tracer Intro](networking-fundamentals/osi-model/notes.md)
 - [IP Addressing & Subnetting](networking-fundamentals/subnetting/notes.md)
 
 </details>
