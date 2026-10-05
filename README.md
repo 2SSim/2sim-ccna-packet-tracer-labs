@@ -9,7 +9,7 @@
 ## Study Log
 
 - [Packet Tracer Intro](01-packet-tracer-intro/notes.md)
-- [Common Interfaces & Ports](02-common-interfaces-ports/notes.md)
+- [Connecting Devices](02-connecting-devices/notes.md)
 
 ---
 
