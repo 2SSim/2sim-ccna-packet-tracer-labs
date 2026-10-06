@@ -10,7 +10,7 @@ Use Packet Tracer's simulation mode to observe traffic at Layers 1-3 of the OSI 
 ## Topology
 ![topology](images/lab3pt1.png)
 
-IP addresses were labeled on the topology for the router interfaces and server, but not for the PC. It still had an IP; it just wasn't displayed the way the other devices' were. I didn't catch this until I watched the video. The actual IP was findable using `ipconfig` in the PC's command prompt.
+IP addresses were labeled on the topology for the router interfaces and server, but not for the PC. It still had an IP; it just wasn't displayed the way the other devices' were. I didn't catch this until I watched the video guide. The actual IP was findable using `ipconfig` in the PC's command prompt.
 
 ## Where I struggled
 I misread the assignment. While observing traffic, I saw a packet being dropped at Layer 3 because of an IP mismatch; its destination IP didn't match the PC's actual IP (which I hadn't looked up yet, since it wasn't shown on the topology). I assumed the task was to fix that mismatch, so I tried manually changing the PC's IP to match the packet's destination. That failed with an error.
