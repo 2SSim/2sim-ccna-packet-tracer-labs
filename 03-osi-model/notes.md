@@ -10,11 +10,6 @@ Use Packet Tracer's simulation mode to observe traffic at Layers 1-3 of the OSI 
 ## Topology
 ![topology](images/lab3pt1.png)
 
-Two networks connected through a router-to-router link.
-
-- **Network 1:** 1 PC, 1 server, 2 switches, connected to Router 1
-- **Network 2:** Router 1's second interface connects to Router 2
-
 IP addresses were labeled on the topology for the router interfaces and server, but not for the PC. It still had an IP; it just wasn't displayed the way the other devices' were. I didn't catch this until I watched the video. The actual IP was findable using `ipconfig` in the PC's command prompt.
 
 ## Where I struggled
