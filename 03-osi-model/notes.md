@@ -1,6 +1,6 @@
 # OSI Model
 
-- **Date:** 2026-10-06
+- **Date:** 2026-10-05
 - **Topic area:** OSI model, DHCP, simulation mode traffic analysis
 - **Difficulty:** Easy
 
