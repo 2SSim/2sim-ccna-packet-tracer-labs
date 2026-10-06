@@ -15,7 +15,7 @@ IP addresses were labeled on the topology for the router interfaces and server, 
 ## Where I struggled
 I misread the assignment. While observing traffic, I saw a packet being dropped at Layer 3 because of an IP mismatch; its destination IP didn't match the PC's actual IP (which I hadn't looked up yet, since it wasn't shown on the topology). I assumed the task was to fix that mismatch, so I tried manually changing the PC's IP to match the packet's destination. That failed with an error.
 
-The real task was simpler than I thought. I just needed to observe the Layer 1-3 traffic as it was, including the drops, then use `ipconfig /release` and `ipconfig /renew` in the PC's command prompt to trigger a DHCP request, which generates observable Layer 7 traffic in simulation mode. No manual IP correction was actually required.
+The real task was simpler than I thought. I just needed to observe the Layer 1-3 traffic as it was, including the packet drops, then use `ipconfig /release` and `ipconfig /renew` in the PC's command prompt to trigger a DHCP request, which generates observable Layer 7 traffic in simulation mode. No manual IP correction was actually required.
 
 Separately from the Layer 3 packet drop, frames were also dropped at Layer 2 during the same observation. The simulation panel gave the reason as "no service to accept the frame." I don't know exactly what this means at the moment. My first guess was that it was tied to the PC lacking an IP, but that doesn't hold since the PC had an IP the whole time.
 
