@@ -1,8 +1,8 @@
 # OSI Model
 
-**Date:** 2026-10-06
-**Topic area:** OSI model, DHCP, simulation mode traffic analysis
-**Difficulty:** Medium
+- **Date:** 2026-10-05
+- **Topic area:** OSI model, DHCP, simulation mode traffic analysis
+- **Difficulty:** Medium
 
 ## Objective
 Use Packet Tracer's simulation mode to observe traffic at Layers 1-3 of the OSI model, then trigger and observe Layer 7 (DHCP) traffic by releasing and renewing the PC's IP address.
