@@ -11,6 +11,7 @@
 - [Packet Tracer Intro](01-packet-tracer-intro/notes.md)
 - [Connecting Devices](02-connecting-devices/notes.md)
 - [OSI Model](03-osi-model/notes.md)
+- [Basic Device Security](04-basic-device-security/notes.md)
 
 ---
 
