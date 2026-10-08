@@ -61,15 +61,15 @@ Building configuration...
 ## Verification
 Every check below gave the same result on R1 and SW1. Screenshots are from R1.
 
-**Before encryption.** `no service password-encryption` is set and the password appears in plain text.
+**Before encryption:** `no service password-encryption` is set and the password appears in plain text.
 
 ![before encryption](images/lab4pt2.png)
 
-**After encryption.** `service password-encryption` is set, and the password now shows as `enable password 7 08026F6028`.
+**After encryption:** `service password-encryption` is set, and the password now shows as `enable password 7 08026F6028`.
 
 ![after encryption](images/lab4pt3.png)
 
-**Which password works after enabling secret.** The device rejected `CCNA` three times (`% Bad secrets`) and accepted `Cisco`. Once `enable secret` is set, it takes over, and the old `enable password` is ignored.
+**The password that grants access after enabling secret:** The device rejected `CCNA` three times (`% Bad secrets`) and accepted `Cisco`. Once `enable secret` is set, it takes over, and the old `enable password` is ignored.
 
 ```
 R1> enable
@@ -81,7 +81,7 @@ Password: (Cisco, accepted)
 R1#
 ```
 
-**Encryption types.** `enable password` uses type 7 and `enable secret` uses type 5.
+**Encryption types:** `enable password` uses type 7 and `enable secret` uses type 5.
 
 ![password types](images/lab4pt4.png)
 
