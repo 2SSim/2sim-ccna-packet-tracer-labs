@@ -20,7 +20,7 @@
 
 The numbered folders are the labs in the order I covered them. Each notes file covers the objective, key configuration (where applicable), and what I learned.
 
-This is a learning log, not a finished reference — expect early entries to be thin and later ones more detailed as the material gets more hands-on.
+This is a learning log, not a finished reference; expect early entries to be thin and later ones more detailed as the material gets more hands-on.
 
 ---
 
