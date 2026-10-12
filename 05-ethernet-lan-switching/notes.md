@@ -10,7 +10,7 @@ Predict, then observe in simulation mode, what messages a ping generates between
 ## Topology
 ![topology](images/lab5pt1.png)
 
-PC1 and PC2 connect to SW1, SW1 connects to SW2, and SW2 connects to PC3 and PC4. Both switches start with empty MAC address tables and all PCs start with empty ARP tables.
+Both switches start with empty MAC address tables and all PCs start with empty ARP tables.
 
 ## Prediction
 Pinging from PC1 to PC3 should produce this sequence:
