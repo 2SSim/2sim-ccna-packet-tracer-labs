@@ -1,7 +1,7 @@
 # Ethernet LAN Switching
 
 - **Date:** 2026-10-10
-- **Topic area:** Switching, MAC address learning, ARP, simulation mode
+- **Topic area:** Switching, MAC address tables, ARP requests/replies
 - **Difficulty:** Easy
 
 ## Objective
