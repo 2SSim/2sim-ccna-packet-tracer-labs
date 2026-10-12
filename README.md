@@ -12,6 +12,7 @@
 - [Connecting Devices](02-connecting-devices/notes.md)
 - [OSI Model](03-osi-model/notes.md)
 - [Basic Device Security](04-basic-device-security/notes.md)
+- [Ethernet LAN Switching](05-ethernet-lan-switching/notes.md)
 
 ---
 
