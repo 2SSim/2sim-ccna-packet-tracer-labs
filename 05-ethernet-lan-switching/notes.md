@@ -87,7 +87,7 @@ Each PC shows up on a Fast Ethernet port on the switch it's plugged into and on 
 **Clearing the table:** `clear mac address-table dynamic` on both switches left the table empty.
 
 ## Where I struggled
-I ran the ping from PC1 to PC3 before using simulation mode and got 4 of 4 replies. I had expected 3 of 4, assuming the first ping would be lost while the ARP request was resolved. It wasn't: ARP finishes in a few milliseconds, well inside the ping timeout, and the PC sends the first echo request once it has PC3's MAC. The first reply took 12ms against 6ms for the rest, which is probably the ARP exchange. I haven't confirmed that.
+I ran the ping from PC1 to PC3 before using simulation mode and got 4 of 4 replies. I had expected 3 of 4, assuming the first ping would be lost while the ARP request was resolved. It wasn't. The first reply took 12ms against 6ms for the rest, which suggests the ARP exchange finished in time but delayed the first packet. I haven't confirmed that. In the IPv4 Addresses lab, the first ping did time out when the traffic crossed a router, so losing the first packet to ARP can happen. Whether it does probably depends on how long the resolution takes, and I can't say more than that from these two labs.
 
 Running the ping first also used up the empty tables the lab starts with, so I had to clear PC1's ARP table before the simulation would show the ARP exchange.
 
