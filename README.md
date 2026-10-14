@@ -2,7 +2,7 @@
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
-**Status:** I've just started :D
+**Status:** Currently studying IPv4 addressing
 
 ---
 
@@ -27,4 +27,4 @@ This is a learning log, not a finished reference; expect early entries to be thi
 
 ## Credit
 
-Labs and structure follow [Jeremy's IT Lab](https://www.youtube.com/@JeremysITLab) CCNA playlist on YouTube. Notes and explanations.
+Labs and structure follow Jeremy’s IT Lab CCNA playlist on YouTube. Notes and explanations are my own.
