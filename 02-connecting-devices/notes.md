@@ -15,7 +15,7 @@ Figuring out which port/cable type to use where, specifically telling apart sing
 
 Also got confused by red/offline links between routers and between routers and switches. I initially assumed a wrong port, wrong cable, or a powered-off device. I saw differing explanations online (some say it's missing IP config; others say the interface is administratively shut down by default). 
 
-Update from the [IPv4 Addresses](2sim-ccna-packet-tracer-labs/06-ipv4-addresses/notes.md) lab: the router interfaces showed `administratively down` before any configuration, assigning IP addresses didn't change their state, and they came up after `no shutdown`. So an address alone wasn't enough. I never ran `no shutdown` on an interface with no address, so I haven't tested whether it would come up on its own.
+Update from the [IPv4 Addresses](../06-ipv4-addresses/notes.md) lab: the router interfaces showed `administratively down` before any configuration, assigning IP addresses didn't change their state, and they came up after `no shutdown`. So an address alone wasn't enough. I never ran `no shutdown` on an interface with no address, so I haven't tested whether it would come up on its own.
 
 ## Things to note
 - Fiber ports: single-mode vs. multi-mode matters for the cable type, not addressing or config
