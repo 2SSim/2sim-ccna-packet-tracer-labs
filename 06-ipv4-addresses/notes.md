@@ -137,6 +137,6 @@ I couldn't view the interface descriptions with `show interfaces description`. I
 - `show ip interface brief` shows the address, whether it was set manually, and the status and protocol of each interface.
 - The subnet mask matches the prefix length: /8 is 255.0.0.0, /16 is 255.255.0.0, /24 is 255.255.255.0.
 - `do` runs a privileged EXEC command from any config mode (`do show running-config`, `do copy running-config startup-config`).
-- Each PC's default gateway is a separate setting that points at the router interface on its own LAN. It was pre-filled here, which may not always be the case, so check it first if a cross-subnet ping fails.
-- The first ping to each PC timed out and the next three succeeded. My explanation is ARP: PC1 has to resolve its gateway's MAC, and R1 has to resolve the destination PC's MAC, before the first echo gets through. I haven't confirmed this. Simulation mode would show it, and rerunning the ping should give 4 of 4 if it's right.
-- The replies came back with TTL=127. In the Ethernet LAN switching lab, same-LAN replies were TTL=128. The router decrements the TTL by one when it forwards, so this suggests the traffic crossed one router hop.
+- Each PC's default gateway is a separate setting that points to the router interface on its own LAN. It was pre-filled here, which may not always be the case, so check it first if a cross-subnet ping fails.
+- The first ping to each PC timed out, and the next three succeeded. My explanation is ARP: PC1 has to resolve its gateway's MAC, and R1 has to resolve the destination PC's MAC, before the first echo gets through. I haven't confirmed this. Simulation mode would show it, and rerunning the ping should give 4 of 4 if it's right.
+- The replies came back with TTL=127. In the Ethernet LAN switching lab, same-LAN replies had TTL=128. The router decrements the TTL by one when it forwards, so this suggests the traffic crossed one router hop.
