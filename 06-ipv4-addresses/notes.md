@@ -52,15 +52,18 @@ Building configuration...
 
 ![Interfaces before configuration](images/lab6pt2.png)
 
+
 **Interfaces after configuration:** All three have their addresses, and both status and protocol are up.
 
 ![Interfaces after configuration](images/lab6pt3.png)
 
 `Vlan1` didn't change because I didn't configure it.
 
+
 **Running configuration:** The descriptions and addresses match the topology.
 
 ![running config interfaces](images/lab6pt4.png)
+
 
 **PC addresses:** I entered the IP address and subnet mask for each PC in Packet Tracer's IP configuration window, then checked with `ipconfig`. The screenshot is from PC1, and PC2 and PC3 looked the same.
 
@@ -87,6 +90,7 @@ Default Gateway.................: ::
 ```
 
 The default gateways were already filled in with each router interface's address when I opened the IP configuration. I only entered the IP address and subnet mask.
+
 
 **Connectivity:** Pinged PC2 and PC3 from PC1. Both worked, with the first request timing out each time.
 ```
