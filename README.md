@@ -14,7 +14,7 @@
 - [Basic Device Security](04-basic-device-security/notes.md)
 - [Ethernet LAN Switching](05-ethernet-lan-switching/notes.md)
 - [IPv4 Addresses](06-ipv4-addresses/notes.md)
-
+- [Interface Configuration](07-interface-configuration/notes.md)
 ---
 
 ## About this repo
