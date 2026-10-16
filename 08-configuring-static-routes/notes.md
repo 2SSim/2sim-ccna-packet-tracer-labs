@@ -114,7 +114,9 @@ C       192.168.13.0/24 is directly connected, GigabitEthernet0/0
 L       192.168.13.3/32 is directly connected, GigabitEthernet0/0
 ```
 
-**Ping before the static routes:** PC1 to PC2 failed with 100% loss. The `Destination host unreachable` replies came from 192.168.1.254, which is R1, so the router answered that it couldn't forward the packets, instead of the packets disappearing. One request timed out in the middle, and I don't know why.
+**Ping attempt before configuring the static routes on each router:** 
+
+PC1 to PC2 failed with 100% loss. The `Destination host unreachable` replies came from 192.168.1.254, which is R1, so the router answered that it couldn't forward the packets, instead of the packets disappearing. One request timed out in the middle, and I don't know why.
 ```
 C:\> ping 192.168.3.1
 
