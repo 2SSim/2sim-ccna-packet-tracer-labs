@@ -2,7 +2,7 @@
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
-**Status:** Currently studying how to configure static routes
+**Status:** Currently studying how to configure and troubleshoot static routes
 
 ---
 
@@ -15,6 +15,7 @@
 - [Ethernet LAN Switching](05-ethernet-lan-switching/notes.md)
 - [IPv4 Addresses](06-ipv4-addresses/notes.md)
 - [Interface Configuration](07-interface-configuration/notes.md)
+- [Configuring Static Routes](08-configuring-static-routes/notes.md)
 ---
 
 ## About this repo
