@@ -10,7 +10,7 @@ Configure the PCs and routers from scratch according to the network diagram, the
 ## Topology
 ![topology](images/lab8pt1.png)
 
-Two LANs joined by a WAN of three routers (R1 to R2 to R3). The switches have no configuration.
+Two LANs are joined by a WAN with three routers (R1 to R2 to R3). The switches have no configuration.
 
 
 ## Key configuration
@@ -57,7 +57,7 @@ R3(config)# ip route 192.168.1.0 255.255.255.0 192.168.13.2
 
 ## Verification
 
-**PC addresses:** Nothing was pre-configured in this lab, so I entered the IP address, subnet mask, and default gateway on each PC myself, then checked with `ipconfig`. Screenshot is from PC1, and PC2 was set the same way with its own addresses.
+**PC addresses:** Nothing was pre-configured in this lab, so I entered the IP address, subnet mask, and default gateway on each PC myself, then checked with `ipconfig`. The screenshot is from PC1, and PC2 was set up the same way with its own addresses.
 
 ![PC1 IP configuration](images/lab8pt2.png)
 
@@ -131,7 +131,7 @@ Ping statistics for 192.168.3.1:
 Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
 ```
 
-**Routing tables after static route config:** Each router now has `S` routes pointing at the next hop from the commands above.
+**Routing tables after static route config:** Each router now has `S` routes pointing to the next hop from the commands above.
 
 R1:
 
@@ -145,7 +145,10 @@ R3:
 
 ![R3 routing table after](images/lab8pt6.png)
 
-**Ping after the static routes:** The first attempt got 1 of 4 replies, and the second got 4 of 4.
+
+**Ping attempts after the config:** 
+
+The first attempt got 1 of 4 replies, and the second got 4 of 4.
 ```
 C:\> ping 192.168.3.1
 
