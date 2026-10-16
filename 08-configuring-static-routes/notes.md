@@ -80,7 +80,9 @@ Default Gateway.................: ::
 | PC1 | 192.168.1.1 | 255.255.255.0 | 192.168.1.254 |
 | PC2 | 192.168.3.1 | 255.255.255.0 | 192.168.3.254 |
 
-**Routing tables before the static routes.** After the interfaces were configured, each router lists only its own connected (`C`) and local (`L`) routes.
+
+
+**Routing tables before the static routes:** After the interfaces were configured, each router lists only its own connected (`C`) and local (`L`) routes.
 
 R1:
 
