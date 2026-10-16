@@ -131,7 +131,7 @@ Ping statistics for 192.168.3.1:
 Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
 ```
 
-**Routing tables after the static routes:** Each router now has `S` routes pointing at the next hop from the commands above.
+**Routing tables after static route config:** Each router now has `S` routes pointing at the next hop from the commands above.
 
 R1:
 
