@@ -181,7 +181,7 @@ Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
 ## Where I struggled
-After setting PC1's static IP address, the default gateway field was empty. I had just configured the connected router interface, so I assumed the gateway would fill in on its own. I tried disabling and re-enabling the router interface and power cycling the PC, and nothing changed. The gateway is a setting on the PC that I have to enter myself. In the earlier labs the gateways were already filled in, which is why I expected it here too.
+After setting PC1's static IP address, the default gateway field was empty. I had just configured the connected router interface, so I assumed the gateway would fill in on its own. I tried disabling and re-enabling the router interface and power cycling the PC, and nothing changed. I realized I had to configure it myself. In the earlier labs, the gateways were already filled in, which is why I expected it here too.
 
 After configuring R1's interfaces, I checked the routing table, and only one of the two connected networks was listed. I had configured and enabled both interfaces, so I checked the interface status. The one missing from the table, G0/0, had its line protocol down. R2's interface on that link hadn't been configured yet and was still shut down, so the link wasn't up at both ends.
 
