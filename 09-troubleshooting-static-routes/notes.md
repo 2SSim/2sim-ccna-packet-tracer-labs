@@ -10,7 +10,7 @@ PC1 and PC2 can't ping each other. Each router has one misconfiguration. Find an
 ## Topology
 ![topology](images/lab9pt1.png)
 
-Same topology and intended addressing as the Configuring Static Routes lab.
+Same topology and intended addressing as the [Configuring Static Routes](../08-configuring-static-routes/notes.md) lab.
 
 
 ## Starting state
