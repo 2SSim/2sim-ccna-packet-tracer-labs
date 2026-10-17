@@ -16,6 +16,7 @@
 - [IPv4 Addresses](06-ipv4-addresses/notes.md)
 - [Interface Configuration](07-interface-configuration/notes.md)
 - [Configuring Static Routes](08-configuring-static-routes/notes.md)
+- [Troubleshooting Static Routes](09-troubleshooting-static-routes/notes.md)
 ---
 
 ## About this repo
