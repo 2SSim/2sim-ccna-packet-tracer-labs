@@ -2,7 +2,7 @@
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
-**Status:** Currently studying how to configure and troubleshoot static routes
+**Status:** Currently studying subnetting
 
 ---
 
