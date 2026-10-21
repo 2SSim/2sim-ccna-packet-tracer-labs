@@ -141,7 +141,7 @@ Default Gateway.................: ::
 192.168.5.190
 ```
 
-**Interfaces before the static routes:** 
+**Interfaces before configuring static routes:** 
 
 All three interfaces on each router were up. Unused interfaces are left out.
 ```
@@ -157,7 +157,7 @@ GigabitEthernet0/1     192.168.5.222   YES manual up                    up
 GigabitEthernet0/0/0   192.168.5.226   YES manual up                    up
 ```
 
-**Routing tables before the static routes:** 
+**Routing tables before configuring static routes:** 
 
 Each router listed only its own connected (`C`) and local (`L`) routes.
 ```
@@ -185,7 +185,7 @@ C       192.168.5.224/30 is directly connected, GigabitEthernet0/0/0
 L       192.168.5.226/32 is directly connected, GigabitEthernet0/0/0
 ```
 
-**Pings before the static routes:**
+**Pings before the configuring static routes:**
 
 | From | To | Result |
 |------|----|--------|
@@ -208,7 +208,7 @@ Ping statistics for 192.168.5.193:
 Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
 ```
 
-**Routing tables after the static routes:** 
+**Routing tables after static routing:** 
 
 Each router now has two `S` routes pointing to the other router across the /30.
 ```
@@ -240,7 +240,7 @@ C       192.168.5.224/30 is directly connected, GigabitEthernet0/0/0
 L       192.168.5.226/32 is directly connected, GigabitEthernet0/0/0
 ```
 
-**Pings after the static routes:** 
+**Pings after static routing:** 
 
 The four pairs that cross the R1 to R2 link all worked, pinging from PC1 and PC2. PC1 to PC2 and PC3 to PC4 worked as well, so every PC can ping every other.
 
@@ -272,8 +272,8 @@ Minimum = 0ms, Maximum = 24ms, Average = 6ms
 This was my first time subnetting. I made a few mistakes with the host portion of the addresses and had to recalculate several times before the blocks came out right. The lab also took longer than it should have, because I'm still getting used to the CLI rules and sometimes forget commands for a moment. That should improve with practice.
 
 ## Things to note
-- VLSM means a different prefix length for each network, sized to what it needs (/25, /26, /28 and /30 here). Allocating from largest to smallest keeps every block aligned and avoids overlaps.
-- The `variably subnetted` line counts both the connected routes and the /32 local routes. Before the static routes, R1 showed 6 subnets with 4 masks and R2 showed 6 subnets with 3 masks. After, both showed 8 subnets with 5 masks.
+- VLSM means a different prefix length for each network, sized to what it needs (/25, /26, /28, and /30 here). Allocating from largest to smallest keeps every block aligned and avoids overlaps.
+- The `variably subnetted` line counts both the connected routes and the /32 local routes. Before the static routes, R1 showed 6 subnets with 4 masks, and R2 showed 6 subnets with 3 masks. After, both showed 8 subnets with 5 masks.
 - Each router needed one static route per LAN behind the other router, so two each. The next hop is the other router's address on the /30.
 - TTL was 127 across one router (PC1 to PC2) and 126 across two (PC1 and PC2 to PC3 and PC4), which fits each router subtracting one, as in the earlier routed labs.
 - Before the static routes, R1 answered `Destination host unreachable`, the same as in the Configuring Static Routes lab. The fourth request timed out, and I don't know why.
