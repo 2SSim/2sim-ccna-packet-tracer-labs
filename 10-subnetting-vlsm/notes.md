@@ -1,6 +1,6 @@
 # Subnetting (VLSM)
 
-- **Date:** 2026-10-20
+- **Date:** 2026-10-21
 - **Topic area:** Subnetting, VLSM, static routing
 - **Difficulty:** Hard
 
