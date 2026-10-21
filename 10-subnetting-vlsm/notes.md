@@ -185,7 +185,7 @@ C       192.168.5.224/30 is directly connected, GigabitEthernet0/0/0
 L       192.168.5.226/32 is directly connected, GigabitEthernet0/0/0
 ```
 
-**Pings before the configuring static routes:**
+**Pings before configuring static routes:**
 
 | From | To | Result |
 |------|----|--------|
