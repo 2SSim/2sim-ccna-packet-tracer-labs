@@ -180,12 +180,12 @@ Approximate round trip times in milli-seconds:
 
 **Simulation mode:** 
 
-In the event list for the VLAN 10 broadcast, the ICMP went from PC1 to SW1, then to R1 and PC2. The replies went from R1 and PC2 back through SW1 to PC1. It didn't cross VLANs. VLAN 20 and
+In the event list for the VLAN 10 broadcast, the ICMP went from PC1 to SW1, then to R1 and PC2. The replies went from R1 and PC2 back through SW1 to PC1. It didn't cross VLANs. VLAN 20 and VLAN 30 behaved the same way.
 ![simulation mode, VLAN 10 broadcast](images/lab11pt3.png)
 
 
 ## Where I struggled
-I started out thinking traffic was leaking across my VLANs, because I wasn't seeing the whole event list. After reviewing the lab closely, I realized I was wrong. The broadcast ping stayed inside its own VLAN, and only the router interface and the other PC in that VLAN replied.
+I started out thinking traffic was leaking across my VLANs because I wasn't seeing the whole event list. After reviewing the lab closely, I realized I was wrong. The broadcast ping stayed inside its own VLAN, and only the router interface and the other PC in that VLAN replied.
 
 What confused me next was what came after the PC received its echo replies. The switch sent STP frames into each VLAN one at a time. The devices that received them dropped them, while the target VLAN's devices carried on communicating. I didn't under
 ## Things to note
