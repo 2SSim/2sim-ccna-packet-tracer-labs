@@ -1,7 +1,7 @@
 # VLANs (Part 1)
 
 - **Date:** 2026-10-23
-- **Topic area:** VLANs, access ports, inter-VLAN routing, broadcast domains
+- **Topic area:** VLANs, access ports, broadcast domains
 - **Difficulty:** Medium
 
 ## Objective
