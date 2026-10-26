@@ -19,6 +19,7 @@
 - [Troubleshooting Static Routes](09-troubleshooting-static-routes/notes.md)
 - [Subnetting (VLSM)](10-subnetting-vlsm/notes.md)
 - [VLANs (Part 1)](11-vlans-part-1/notes.md)
+- [VLANs (Part 2)](12-vlans-part-2/notes.md)
 ---
 
 ## About this repo
