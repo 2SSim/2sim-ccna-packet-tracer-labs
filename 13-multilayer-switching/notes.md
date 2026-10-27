@@ -10,7 +10,7 @@ Replace the router-on-a-stick link between R1 and SW2 with a point-to-point Laye
 ## Topology
 ![topology](images/lab13pt1.png)
 
-Same layout as the VLANs (Part 2) lab, except SW2 is now a multilayer switch (interfaces G1/0/x), R1 connects to SW2 over a point-to-point link instead of a trunk, and R1 now connects to the internet. All devices start preconfigured from the end of the previous lab: hosts in the right VLANs, SW1 and SW2 trunked, and R1 and SW2 using router-on-a-stick. The red marker on R1's link to the internet is the starting state. The diagram doesn't say which R1 interface faces the internet; it's Giga0/0/0. I found it in the CLI.
+Same layout as the [VLANs (Part 2)](../12-vlans-part-2/notes.md) lab, except SW2 is now a multilayer switch (interfaces G1/0/x), R1 connects to SW2 over a point-to-point link instead of a trunk, and R1 now connects to the internet. All devices start preconfigured from the end of the previous lab: hosts in the right VLANs, SW1 and SW2 trunked, and R1 and SW2 using router-on-a-stick. The red marker on R1's link to the internet is the starting state. The diagram doesn't say which R1 interface faces the internet; it's Giga0/0/0. I found it in the CLI.
 
 ## Device addressing
 The default gateways were already filled in on every PC. Each one is the last usable address of its subnet, which is the address of the matching SVI on SW2.
