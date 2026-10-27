@@ -20,6 +20,7 @@
 - [Subnetting (VLSM)](10-subnetting-vlsm/notes.md)
 - [VLANs (Part 1)](11-vlans-part-1/notes.md)
 - [VLANs (Part 2)](12-vlans-part-2/notes.md)
+- [Multilayer Switching](13-multilayer-switching/notes.md)
 ---
 
 ## About this repo
