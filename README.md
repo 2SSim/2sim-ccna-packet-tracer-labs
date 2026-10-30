@@ -2,7 +2,7 @@
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
-**Status:** Currently studying Multilayer Switching
+**Status:** Currently studying Spanning Tree Protocol
 
 ---
 
@@ -21,6 +21,7 @@
 - [VLANs (Part 1)](11-vlans-part-1/notes.md)
 - [VLANs (Part 2)](12-vlans-part-2/notes.md)
 - [Multilayer Switching](13-multilayer-switching/notes.md)
+- [DTP & VTP](14-dtp-and-vtp/notes.md)
 ---
 
 ## About this repo
