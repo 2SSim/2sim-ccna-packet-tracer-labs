@@ -22,6 +22,7 @@
 - [VLANs (Part 2)](12-vlans-part-2/notes.md)
 - [Multilayer Switching](13-multilayer-switching/notes.md)
 - [DTP & VTP](14-dtp-and-vtp/notes.md)
+- [Analyzing STP](15-analyzing-stp/notes.md)
 ---
 
 ## About this repo
