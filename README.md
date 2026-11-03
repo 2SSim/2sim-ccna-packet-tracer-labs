@@ -23,6 +23,7 @@
 - [Multilayer Switching](13-multilayer-switching/notes.md)
 - [DTP & VTP](14-dtp-and-vtp/notes.md)
 - [Analyzing STP](15-analyzing-stp/notes.md)
+- [Configuring Spanning Tree](16-configuring-spanning-tree/notes.md)
 ---
 
 ## About this repo
