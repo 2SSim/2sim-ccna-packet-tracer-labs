@@ -2,7 +2,7 @@
 
 <p align="center">Documenting my CCNA prep — networking fundamentals, Packet Tracer labs, and key concepts as I study toward certification.</p>
 
-**Status:** Currently studying Spanning Tree Protocol
+**Status:** Currently studying EtherChannel
 
 ---
 
@@ -24,6 +24,7 @@
 - [DTP & VTP](14-dtp-and-vtp/notes.md)
 - [Analyzing STP](15-analyzing-stp/notes.md)
 - [Configuring Spanning Tree](16-configuring-spanning-tree/notes.md)
+- [Rapid STP](17-rapid-stp/notes.md)
 ---
 
 ## About this repo
