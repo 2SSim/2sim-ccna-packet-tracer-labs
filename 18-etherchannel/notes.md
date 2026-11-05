@@ -259,9 +259,9 @@ Simulation mode during PC1's ping to SRV1, showing the topology and the event li
 
 ### Load balancing:
 
-All four switches started with the source MAC address as the load-balancing method. After step 6, all four used source and destination IP.
+All four switches started with the source MAC address as the load-balancing method. After my manual configurations, all four used source and destination IP.
 
-| Switch | Default | After step 6 |
+| Switch | Default | After config |
 |--------|---------|--------------|
 | ASW1 | src-mac | src-dst-ip |
 | ASW2 | src-mac | src-dst-ip |
