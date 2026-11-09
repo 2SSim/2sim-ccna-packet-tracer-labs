@@ -26,6 +26,7 @@
 - [Configuring Spanning Tree](16-configuring-spanning-tree/notes.md)
 - [Rapid STP](17-rapid-stp/notes.md)
 - [EtherChannel](18-etherchannel/notes.md)
+- [Floating Static Routes](19-floating-static-routes/notes.md)
 ---
 
 ## About this repo
