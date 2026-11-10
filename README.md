@@ -27,6 +27,7 @@
 - [Rapid STP](17-rapid-stp/notes.md)
 - [EtherChannel](18-etherchannel/notes.md)
 - [Floating Static Routes](19-floating-static-routes/notes.md)
+- [EIGRP Configuration](20-eigrp-configuration/notes.md)
 ---
 
 ## About this repo
