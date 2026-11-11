@@ -28,6 +28,7 @@
 - [EtherChannel](18-etherchannel/notes.md)
 - [Floating Static Routes](19-floating-static-routes/notes.md)
 - [EIGRP Configuration](20-eigrp-configuration/notes.md)
+- [OSPF (Part 1)](21-ospf-part-1/notes.md)
 ---
 
 ## About this repo
