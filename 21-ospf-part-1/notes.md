@@ -301,7 +301,7 @@ C    192.168.4.0/24 is directly connected, GigabitEthernet0/0
 
 ### The ASBR:
 
-R1 had no default route before this step, so I gave it a static one to ISPR1 and then told OSPF to advertise it. After the change, `show ip protocols` on R1 says it's an autonomous system boundary router, which it didn't before, and its routing table has a gateway of last resort.
+R1 had no default route at this point, so I gave it a static one to ISPR1 and then told OSPF to advertise it. After the change, `show ip protocols` on R1 says it's an autonomous system boundary router, which it didn't before, and its routing table has a gateway of last resort.
 ```
 R1# show ip protocols
 Routing Protocol is "ospf 1"
@@ -318,14 +318,14 @@ Gateway of last resort is 203.0.113.2 to network 0.0.0.0
 C       203.0.113.0 is directly connected, GigabitEthernet3/0
 S*   0.0.0.0/0 [1/0] via 203.0.113.2
 ```
-The rest of R1's table is the same as in step 3, apart from the ages of the routes.
+The rest of R1's table is the same as before, apart from the ages of the routes.
 
 
 ### Default routes on R2, R3 and R4:
 
-Before step 4, all three routers had no gateway of last resort (the tables in step 3). I predicted that the default route would be added to the other routers' routing tables.
+All three routers previously had no gateway of last resort. I predicted that the default route would be added to the other routers' routing tables.
 
-After step 4, all three routers learned a default route from R1. It's an OSPF external type 2 route (`O*E2`) with a metric of 1 on every router. R2 and R3 each have one path, straight to R1, and R4 has two, one through R2 and one through R3.
+After configuring the ASBR, all three routers learned a default route from R1. It's an OSPF external type 2 route (`O*E2`) with a metric of 1 on every router. R2 and R3 each have one path, straight to R1, and R4 has two, one through R2 and one through R3.
 
 | Router | Before | After |
 |--------|--------|-------|
@@ -353,7 +353,7 @@ Gateway of last resort is 10.0.24.1 to network 0.0.0.0
 O*E2 0.0.0.0/0 [110/1] via 10.0.24.1, 00:07:05, FastEthernet1/0
                [110/1] via 10.0.34.1, 00:07:05, FastEthernet2/0
 ```
-The rest of each table is the same as in step 3, apart from the ages of the routes. The OSPF settings in `show ip protocols` on R2, R3, and R4 didn't change.
+The rest of each table is the same as before, apart from the ages of the routes. The OSPF settings in `show ip protocols` on R2, R3, and R4 didn't change.
 
 ## Things to note
 - The `network` command takes a wildcard mask. I used `0.0.0.3` for the /30 links, `0.0.0.255` for the LAN and `0.0.0.0` on the loopbacks, so each statement matches one interface exactly. All of them are in area 0.
