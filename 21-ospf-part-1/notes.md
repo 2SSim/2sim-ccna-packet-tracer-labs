@@ -96,7 +96,7 @@ R4(config-router)# passive-interface loopback0
 Each router printed an `%OSPF-5-ADJCHG` message as its neighbors reached the FULL state: R2 with R1, R3 with R1, and R4 with R2 and R3. I didn't set router IDs, since every router already had a loopback.
 
 
-**R1 as an Autonomous-System Border Router:** I gave R1 a static default route to ISPR1 first.
+**R1 as an Autonomous System Boundary Router:** I gave R1 a static default route to ISPR1 first.
 ```
 R1(config)# ip route 0.0.0.0 0.0.0.0 203.0.113.2
 R1(config)# router ospf 1
