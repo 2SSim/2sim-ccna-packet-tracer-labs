@@ -359,7 +359,7 @@ The rest of each table is the same as before, apart from the ages of the routes.
 - The `network` command takes a wildcard mask. I used `0.0.0.3` for the /30 links, `0.0.0.255` for the LAN and `0.0.0.0` on the loopbacks, so each statement matches one interface exactly. All of them are in area 0.
 - Each router chose its loopback address as its router ID (1.1.1.1 to 4.4.4.4), since I didn't set one manually.
 - I made the loopbacks passive on all four routers, and R4's G0/0 is passive. None of those interfaces have an OSPF neighbor behind them, and the router links stay non-passive because the neighbors need to form there. OSPF still advertises the networks on passive interfaces.
-- As in the EIGRP lab, the routing tables have no local (`L`) routes, since these are the same router model.
+- As in the [EIGRP lab](../20-eigrp-configuration/notes.md), the routing tables have no local (`L`) routes, since these are the same router model.
 - Several destinations have two paths with the same cost, shown as two lines under one route: R1 to 4.4.4.4 and to 192.168.4.0/24, R2 to 3.3.3.3, R3 to 2.2.2.2, and R4 to 1.1.1.1. OSPF installs equal-cost paths together.
 - The static default route on R1 shows as `S*`, with an administrative distance of 1. The copies on R2, R3, and R4 show as `O*E2`, with a distance of 110.
 - The link between R1 and ISPR1 isn't in OSPF, so R2, R3 and R4 have no route to 203.0.113.0/30. The default route is how they reach anything outside the OSPF domain.
