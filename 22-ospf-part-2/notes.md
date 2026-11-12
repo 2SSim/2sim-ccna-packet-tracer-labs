@@ -403,13 +403,13 @@ The destination address is a multicast address, so R2 passed the packet up to it
 - Internet Header Length (IHL): 5
 - Differentiated Services Code Point (DSCP): 0x00
 - Total Length (TL): 20
-- Identification (ID): 0x0402
+- Identification (ID): 0x1d8b
 - Flags: 0x0
 - Fragment Offset: 0x000
 - Time to Live (TTL): 1
 - Protocol (PRO): 0x59
 - Checksum: (Calculated field)
-- Source IP: 10.0.13.1
+- Source IP: 10.0.12.1
 - Destination IP: 224.0.0.5
 
 **OSPF Hello Packet Fields at R2:**
@@ -427,9 +427,9 @@ The destination address is a multicast address, so R2 passed the packet up to it
 - Options: 0
 - Router Priority (RP): 1
 - Router Dead Interval: 40
-- Designated Router (DR): 10.0.13.1
-- Backup Designated Router (BDR): 10.0.13.2
-- Neighbor: 3.3.3.3
+- Designated Router (DR): 10.0.12.1
+- Backup Designated Router (BDR): 10.0.12.2
+- Neighbor: 2.2.2.2
 
 
 
@@ -441,5 +441,5 @@ The destination address is a multicast address, so R2 passed the packet up to it
 - An OSPF interface cost is the reference bandwidth divided by the interface bandwidth. With the default reference bandwidth, FastEthernet and Gigabit interfaces both cost 1. With a reference bandwidth of 10000, they cost 100 and 10. IOS warned that the reference bandwidth should be the same on all routers, and I set it on all four.
 - Changing the costs removed the equal-cost paths. R1 and R4 each had two paths to some destinations before, and one path each after.
 - The default route on R2, R3 and R4 is an `O*E2` route. Its metric stayed at 1 after the cost change, and it was 1 in the previous lab too.
-- R4 now has one default route where it had two in [OSPF (Part 1)](../21-ospf-part-1/notes.md). Its cost to reach R1's links is 110 through R2 (10.0.12.0) and 200 through R3 (10.0.13.0). My reading is that with equal external metrics, OSPF picks the route with the lower cost to the ASBR, which is R1. I haven't confirmed that.
+- R4 now has one default route where it had two in [OSPF (Part 1)](../21-ospf-part-1/notes.md). Its cost to reach R1's links is 110 through R2 (10.0.12.0) and 200 through R3 (10.0.13.0). With equal external metrics, OSPF picks the route with the lower cost to the ASBR.
 - OSPF Hellos go to the multicast address 224.0.0.5, and the Ethernet destination for it is 0100.5E00.0005.
