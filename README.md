@@ -29,6 +29,7 @@
 - [Floating Static Routes](19-floating-static-routes/notes.md)
 - [EIGRP Configuration](20-eigrp-configuration/notes.md)
 - [OSPF (Part 1)](21-ospf-part-1/notes.md)
+- [OSPF (Part 2)](22-ospf-part-2/notes.md)
 ---
 
 ## About this repo
