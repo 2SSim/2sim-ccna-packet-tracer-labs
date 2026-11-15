@@ -30,6 +30,7 @@
 - [EIGRP Configuration](20-eigrp-configuration/notes.md)
 - [OSPF (Part 1)](21-ospf-part-1/notes.md)
 - [OSPF (Part 2)](22-ospf-part-2/notes.md)
+- [OSPF (Part 3)](23-ospf-part-3/notes.md)
 ---
 
 ## About this repo
