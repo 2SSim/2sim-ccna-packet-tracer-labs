@@ -9,7 +9,7 @@
 ## Study Log
 
 <details>
-📁 <summary><b>Network Fundamentals</b></summary>
+<summary><b>📁 Network Fundamentals</b></summary>
 
 - [Packet Tracer Intro](network-fundamentals/01-packet-tracer-intro/notes.md)
 - [Connecting Devices](network-fundamentals/02-connecting-devices/notes.md)
@@ -19,7 +19,7 @@
 </details>
 
 <details>
-📁 <summary><b>IPv4 Addressing and Subnetting</b></summary>
+<summary><b>📁 IPv4 Addressing and Subnetting</b></summary>
 
 - [IPv4 Addresses](ipv4-addressing-and-subnetting/06-ipv4-addresses/notes.md)
 - [Subnetting (VLSM)](ipv4-addressing-and-subnetting/10-subnetting-vlsm/notes.md)
@@ -27,7 +27,7 @@
 </details>
 
 <details>
-📁 <summary><b>Switching and VLANs</b></summary>
+<summary><b>📁 Switching and VLANs</b></summary>
 
 - [Ethernet LAN Switching](switching-and-vlans/05-ethernet-lan-switching/notes.md)
 - [VLANs (Part 1)](switching-and-vlans/11-vlans-part-1/notes.md)
@@ -42,7 +42,7 @@
 </details>
 
 <details>
-📁 <summary><b>Static Routing</b></summary>
+<summary><b>📁 Static Routing</b></summary>
 
 - [Configuring Static Routes](static-routing/08-configuring-static-routes/notes.md)
 - [Troubleshooting Static Routes](static-routing/09-troubleshooting-static-routes/notes.md)
@@ -51,7 +51,7 @@
 </details>
 
 <details open>
-📁 <summary><b>Dynamic Routing</b></summary>
+<summary><b>📁 Dynamic Routing</b></summary>
 
 - [EIGRP Configuration](dynamic-routing/20-eigrp-configuration/notes.md)
 - [OSPF (Part 1)](dynamic-routing/21-ospf-part-1/notes.md)
@@ -61,7 +61,7 @@
 </details>
 
 <details>
-📁 <summary><b>Basic Network Security</b></summary>
+<summary><b>📁 Basic Network Security</b></summary>
 
 - [Basic Device Security](basic-network-security/04-basic-device-security/notes.md)
 
