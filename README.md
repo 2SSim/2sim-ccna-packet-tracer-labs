@@ -50,7 +50,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary><b>📁 Dynamic Routing</b></summary>
 
 - [EIGRP Configuration](dynamic-routing/20-eigrp-configuration/notes.md)
