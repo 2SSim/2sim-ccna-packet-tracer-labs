@@ -19,5 +19,5 @@ Update from the [IPv4 Addresses](../../ipv4-addressing-and-subnetting/06-ipv4-ad
 
 ## Things to note
 - Fiber ports: single-mode vs. multi-mode matters for the cable type, not addressing or config
-- - Switch ports seem to come up automatically once physically connected. Router interfaces start administratively down and came up after `no shutdown` (seen in the [IPv4 Addresses](../ipv4-addressing-and-subnetting/06-ipv4-addresses/notes.md) lab). I haven't tested whether `no shutdown` alone, without an IP, is enough.
+- - Switch ports seem to come up automatically once physically connected. Router interfaces start administratively down and came up after `no shutdown` (seen in the [IPv4 Addresses](../../ipv4-addressing-and-subnetting/06-ipv4-addresses/notes.md) lab). I haven't tested whether `no shutdown` alone, without an IP, is enough.
 - Devices must be powered on to function or to be removed/modified; Packet Tracer prompts for this, which is a helpful guardrail
