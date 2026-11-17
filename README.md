@@ -67,6 +67,12 @@
 
 </details>
 
+<details>
+<summary><b>📁 IP Services</b></summary>
+
+- [HSRP Configuration](ip-services/24-hsrp-configuration/notes.md)
+
+</details>
 ---
 
 ## About this repo
