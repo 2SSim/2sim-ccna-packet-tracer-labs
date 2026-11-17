@@ -257,5 +257,5 @@ So yes, R1 became the active router again, and the prediction held.
 - The default gateway before HSRP was R1's own address, so the PCs were tied to R1. Pointing them at the VIP is what lets R2 take over without touching the PCs.
 - R1 only took the Active role back because both its higher priority and preemption were on, and that without preemption R2 would have stayed Active.
 - PCs' ARP tables were empty after the gateway change because the aging timer for the old entry expired and the PCs hadn't learned the new MAC address yet.
-- After R1 came back in step 5, `show standby` on R1 still said `Standby router is unknown`, while R2 had already gone to Standby. My reading is that R1 hadn't learned about R2 yet when I captured it, 27 seconds after its last state change. I didn't check again.
+- After R1 came back on, `show standby` on R1 still said `Standby router is unknown`, while R2 had already gone to Standby. My reading is that R1 hadn't learned about R2 yet when I captured it, 27 seconds after its last state change. I didn't check again.
 - I didn't record how long R2 took to take over after R1 went off.
