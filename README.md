@@ -19,10 +19,10 @@
 </details>
 
 <details>
-<summary><b>📁 IPv4 Addressing and Subnetting</b></summary>
+<summary><b>📁 IP Addressing and Subnetting</b></summary>
 
-- [IPv4 Addresses](ipv4-addressing-and-subnetting/06-ipv4-addresses/notes.md)
-- [Subnetting (VLSM)](ipv4-addressing-and-subnetting/10-subnetting-vlsm/notes.md)
+- [IPv4 Addresses](ip-addressing-and-subnetting/06-ipv4-addresses/notes.md)
+- [Subnetting (VLSM)](ip-addressing-and-subnetting/10-subnetting-vlsm/notes.md)
 
 </details>
 
