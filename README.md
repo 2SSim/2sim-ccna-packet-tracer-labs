@@ -24,6 +24,7 @@
 - [IPv4 Addresses](ip-addressing-and-subnetting/06-ipv4-addresses/notes.md)
 - [Subnetting (VLSM)](ip-addressing-and-subnetting/10-subnetting-vlsm/notes.md)
 - [IPv6 Configuration (Part 1)](ip-addressing-and-subnetting/25-ipv6-configuration-part-1/notes.md)
+- [IPv6 Configuration (Part 2)](ip-addressing-and-subnetting/26-ipv6-configuration-part-2/notes.md)
 
 </details>
 
