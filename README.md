@@ -49,6 +49,7 @@
 - [Configuring Static Routes](static-routing/08-configuring-static-routes/notes.md)
 - [Troubleshooting Static Routes](static-routing/09-troubleshooting-static-routes/notes.md)
 - [Floating Static Routes](static-routing/19-floating-static-routes/notes.md)
+- [IPv6 Static Routes](static-routing/27-ipv6-static-routes/notes.md)
 
 </details>
 
