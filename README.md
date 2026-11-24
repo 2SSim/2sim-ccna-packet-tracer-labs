@@ -68,6 +68,7 @@
 
 - [Basic Device Security](basic-network-security/04-basic-device-security/notes.md)
 - [Standard ACLs](basic-network-security/28-standard-acls/notes.md)
+- [Extended ACLs](basic-network-security/29-extended-acls/notes.md)
 
 </details>
 
