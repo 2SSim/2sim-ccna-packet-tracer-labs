@@ -15,7 +15,7 @@
 - [Connecting Devices](network-fundamentals/02-connecting-devices/notes.md)
 - [OSI Model](network-fundamentals/03-osi-model/notes.md)
 - [Interface Configuration](network-fundamentals/07-interface-configuration/notes.md)
-
+- [CDP & LLDP](network-fundamentals/30-cdp-and-lldp/notes.md)
 </details>
 
 <details>
